@@ -1,7 +1,6 @@
 cff-version: 1.2.0
-title: Test
-abstract: Testing GitHub Zenodo integration.
-message: If you use this software, please cite it as below.
+title: "Test: Testing GitHub Zenodo Integration"
+message: "If you use this software, please cite it as below."
 type: software
 authors:
   - given-names: John
@@ -11,10 +10,25 @@ authors:
     orcid: 'https://orcid.org/0009-0007-0807-5575'
 identifiers:
   - type: doi
-    value: XXX
+    value: 10.5281/zenodo.14104550
     description: Zenodo archive
 repository-code: 'https://github.com/cybernetics87/Test'
 url: 'https://github.com/cybernetics87/Test'
 license: MIT
-version: 0.1.0
+version: 1.0.0
 date-released: '2024-11-12'
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "John"
+    given-names: "Doe"
+  - family-names: "Foo"
+    given-names: "Bar"
+  title: "Testing GitHub Zenodo Integration"
+  year: 2024
+  month: 11
+  journal: "arXiv"
+  doi: "10.48550/arXiv.1234.12345"
+  url: "https://arxiv.org/abs/1234.12345"
+  publisher: 
+    name: "arXiv"
